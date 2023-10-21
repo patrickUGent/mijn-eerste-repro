@@ -1,0 +1,77 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- <button onclick="vraagNaam()">Klik mij</button>            -->
+        <!-- <script>
+         let fles = "water";
+         let glas = "Bier";
+         function grenadineToevoegen(opvang) {
+            document.write(`<p>Grenadine is toegevoegd aan ${opvang}</p>`);
+         }
+         grenadineToevoegen(glas);
+    </script>  -->
+ <!-- <script>
+                
+            function eersteCharacter(naam){
+           vakNaam = naam.charAt(0);
+            document.write(`<p>Het eerste karakter uit "Javascript" is: ${vakNaam}</p>`);
+        }
+        eersteCharacter("JavaScript");
+        </script> -->
+
+
+    <!-- <script>
+   function hoofdletters(tekst){
+    TEKST = tekst.toUpperCase();
+    document.write(`<p>${TEKST}</p>`);        
+   }
+    hoofdletters("javascript");
+    hoofdletters("css");
+    </script> -->
+
+<!-- <script>
+    let namen =["Jan", "Piet", "Joris"];
+
+    function toonArray(ontvangen) {
+            document.write(ontvangen);
+    }
+    toonArray(namen);
+</script> -->
+
+
+<!-- <script>
+    let namen = ["Jan", "Piet", "Joris"];
+
+    function tooneersteTekenvanElkElement(ontvangen) {
+        let lengte = ontvangen.length; // Fixed the spelling error (lengte instead of length)
+        document.write("<p> Het eerste teken van elk element:</p>");
+
+        for (let i = 0; i < lengte; i++) {
+            document.write("<p>(" + (i + 1) + ") " + ontvangen[i] + " is " + ontvangen[i].charAt(0) + "</p>");
+        }
+    }
+
+    // Call the function with the 'namen' array
+    tooneersteTekenvanElkElement(namen); 
+</script> -->
+
+   <!-- (1) Jan is J
+        (2) Piet  is P
+        (3) Joris is J -->
+
+
+        <script>
+            function checkEersteLetter(tekst){
+                return tekst.charAt(0).toUpperCase() + tekst.substring(1);
+            }
+            let voornaam = prompt("Geef je voornaam in aub.");
+            voornaam = checkEersteLetter(voornaam);
+            let achternaam = prompt("Geef je achternaamnaam in aub.");
+            naam = checkEersteLetter(achternaam);
+            document.write(`Hey ${voornaam} ${achternaam}`);
+        </script>
